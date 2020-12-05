@@ -504,6 +504,8 @@ section {
 }
 .process-details {
     height: 300px;
+    padding: 50px 60px 70px 60px;
+    box-sizing: border-box;
 }
 .skill-title {
     font-size: 16px;
@@ -570,6 +572,19 @@ section {
     width: 145px;
     height: 108px;
   }
+.services-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.services-text {
+    overflow: auto;
+    height: 80%;
+}
+.services-title i {
+    margin-right: 20px;
+    font-size: 40px;
+}
 /* effects */
 .header-menu:hover > .menu-text {
     color:  #F57500;   
