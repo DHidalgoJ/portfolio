@@ -5,5 +5,5 @@ const initializeSkills = () => {
         skill.getElementsByClassName('skillbar-progress')[0].style.width = percent + '%'
     }
 }
-
 initializeSkills();
+

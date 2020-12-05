@@ -527,6 +527,49 @@ section {
     position: absolute;
     overflow: hidden;
 }
+
+  .clients-cell {
+    width: 50%;
+    height: 200px;
+    margin-right: 50px;
+    border: 1px solid #eee;
+    background: #fcfcfc;
+    margin-top: 100px;
+    position: relative;
+    padding: 25px 30px;
+  }
+  .client-header {
+      display: flex;
+      align-items: center;
+  }
+  .client-name {
+      padding-left: 10px;
+      font-weight: bold;
+      font-size: 1rem;
+  }
+  .client-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+  }
+  .client-text {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-style: italic;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  .clients-logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0;
+  }
+  .clients-logo img {
+    width: 145px;
+    height: 108px;
+  }
 /* effects */
 .header-menu:hover > .menu-text {
     color:  #F57500;   
