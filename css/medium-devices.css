@@ -1,7 +1,4 @@
 @media (max-width: 1099px) { 
-    body {
-        background-color: blue;
-    }
     .is-medium-0 {
         display: none;
     }

@@ -7,6 +7,16 @@ body {
     letter-spacing: 1px;
     line-height: 22px;
 }
+body::-webkit-scrollbar {
+    width: 5px;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
 h3 {
     font-size: 26px;
     text-align: left;
@@ -243,6 +253,28 @@ section {
 }
 .share-btn-effect-2 {
     bottom: 0;
+}
+.share-options {
+    bottom: 0;
+    position: fixed;
+    width: 225px;
+    height: 160px;
+    left: 80px;
+    transition: left 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 999;
+}
+.share-options.hide {
+    left: -150px;
+    /* width: 0; */
+}
+.share-social-network {
+    width: 75px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .right-header {
     width: 80px; 
@@ -580,6 +612,16 @@ section {
 .services-text {
     overflow: auto;
     height: 80%;
+}
+.services-text::-webkit-scrollbar {
+    width: 1px;
+}
+.services-text::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.services-text::-webkit-scrollbar-thumb {
+  background-color: #F57500;
+  outline: 1px solid #F57500;
 }
 .services-title i {
     margin-right: 20px;

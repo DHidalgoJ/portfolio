@@ -7,3 +7,10 @@ const initializeSkills = () => {
 }
 initializeSkills();
 
+function view_share_options() { 
+    document.getElementById('share-options').classList.toggle('hide');
+}
+
+function hide_share_options() {
+    document.getElementById('share-options').classList.toggle('hide');
+}

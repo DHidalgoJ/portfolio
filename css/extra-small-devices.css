@@ -1,7 +1,4 @@
 @media (max-width: 520px) { 
-    body {
-        background-color: green;
-    }
     .is-extra-small-0 {
         display: none;
     }

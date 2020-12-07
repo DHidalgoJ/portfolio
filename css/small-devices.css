@@ -1,7 +1,4 @@
 @media (max-width: 900px) { 
-    body {
-        background-color: red;
-    }
     /* Grid */
     .is-small-0 {
         display: none;
@@ -79,5 +76,8 @@
     }
     .section-number {
         font-size: 140px;
+    }
+    .process-details {
+        height: 200px;
     }
  }
